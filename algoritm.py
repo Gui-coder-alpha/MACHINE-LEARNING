@@ -1,11 +1,13 @@
 import numpy as np
 
 class Universal_ML:
-    def activation(self, Features):
-        return np.maximum(0, Features)
+    def activation(self, Features, Bias):
+        np.maximum(0, Features)
     
     def sim(self):
         return "hiiii"
-    def aleatory_weights(self):
+    def simple_function(self, Features, Bias):
         weights = np.random.randn(1,2)
-        return weights
+        Linear_Algebra = (Features @ weights) + Bias
+        return Linear_Algebra
+        
