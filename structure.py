@@ -14,8 +14,10 @@ Epochs = 1000
 Activate_function = algoritm.Universal_ML()
 
 def Machine_learning(Features, Target, Bias, Learning_rate, Epochs):
-    Features_WB = Activate_function.simple_function(Features, Bias)
+    Features_WB = Activate_function.foward(Features)
     print(Features_WB)
+    Cost_results = Activate_function.mse(Target, Features_WB)
+    print(Cost_results)
 
     for i in range(Epochs):
         oi = 1
