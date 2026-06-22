@@ -3,8 +3,8 @@
 <p>In this project, I recreated the Google game(Dinosaur Game), for my Machine Learning, with the goal of learning
 about Data Science and the theories of Machine Learning/Neural Networks. It's a very simple project made by me, studying
 with the objective of entering in the world of programming in a an in-depth way.</p>
-<img src = "MACHINE_LEARNING/Dinosaur_Images/image_ex.png" alt = "Image of Machine Learning playing the game">
-<img src = "MACHINE_LEARNING/Dinosaur_Images/image_ex2.png" alt = "Image of the neurons">
+<img src = "MACHINE-LEARNING/Dinosaur_Images/image_ex.png" alt = "Image of Machine Learning playing the game">
+<img src = "MACHINE-LEARNING/Dinosaur_Images/image_ex2.png" alt = "Image of the neurons">
 
 <h2>Explaning about the project</h2>
 <p>The project is simple, but with simple visual, clear information, ponctuation graph and the functioning of neurons.</p>
